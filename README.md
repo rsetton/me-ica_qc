@@ -1,9 +1,9 @@
 # me-ica_qc
 Quality checking for ME-ICA processed ME data.
 
-Preface: this is a super clunky (but usable!) script that pastes together typical QC steps for any fMRI data and outputs a pdf report for easy viewing. The hope is to return to this and make it more generalizable. For now please use and adapt as you see fit.
+<b>Preface:</b> this is a super clunky (but usable!) script that pastes together typical QC steps for any fMRI data and outputs a pdf report for easy viewing. The hope is to return to this and make it more generalizable. For now please use and adapt as you see fit.
 
-Requirements (for now):
+<b>Requirements (for now):</b>
 -ME-ICA processed data
 -afni
 -fsl
@@ -11,7 +11,7 @@ Requirements (for now):
 -ImageMagick (but not necessary if not generating pdf report)
 
 
-Returns: 
+<b>Returns:</b>
 -co-registration assessment as a jpeg with various sagittal slices
 -# of accepted, rejected, midk, and total components identified in txt and jpeg formats
 -plot of 6 motion parameters as a jpeg
@@ -21,5 +21,5 @@ Returns:
 -a pdf report containing all of the above
 
 
-References:
+<b>References:</b>
 Steps are largely based off public notes from the Cambridge group wiki (https://wiki.cam.ac.uk/bmuwiki/Matilde_QC).
