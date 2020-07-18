@@ -5,7 +5,7 @@ Quality checking for ME-ICA processed ME data.
 
 <b>Requirements (for now):</b>
 <br>
--ME-ICA processed data
+-ME-ICA processed data in BIDS format
 <br>
 -afni
 <br>
