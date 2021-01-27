@@ -69,7 +69,7 @@
         python /home/lbcspreng/Desktop/derivatives/dvars.py *_medn_nat.nii.gz
 
         #plot on same axes with labels
-        1dRplot -input *.1D -oneplot -col.color 1 2 3 4 -leg.show -leg.names hik lowk medn tsoc -leg.position top -title DVARS -xax.label TR -yax.label DVARS -save DVARScomparison
+        1dRplot -input *hik*.1D *lowk*.1D *medn*.1D *tsoc*.1D -oneplot -col.color 1 2 3 4 -leg.show -leg.names hik lowk medn tsoc -leg.position top -title DVARS -xax.label TR -yax.label DVARS -save DVARScomparison
 
         #generate tSNR maps from medn files
         3dTstat -mean -prefix ${run}_medn_mean.nii.gz *medn_nat.nii.gz
